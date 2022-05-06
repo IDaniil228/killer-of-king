@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637849491879503612
-    m_Hash: 2881456679
+      ticks: 637872846830318457
+    m_Hash: 2276222903
   m_LockFileStatus:
     m_FilePath: D:/games in unity/Git Hub/killer-of-king/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637849491879513612
-    m_Hash: 3715222794
+      ticks: 637872846830428463
+    m_Hash: 645442496
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -84,6 +84,7 @@ m_PackageAssets:
         - 3.2.15
         - 3.2.16
         - 3.2.17
+        - 3.2.18
         - 4.0.0
         - 4.0.1
         - 4.1.0
@@ -109,6 +110,7 @@ m_PackageAssets:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.1
         - 6.0.0-pre.1
         - 6.0.0-pre.2
         - 6.0.1
@@ -123,14 +125,17 @@ m_PackageAssets:
         - 7.0.2
         - 7.0.3
         - 7.0.4
+        - 7.0.5
         - 8.0.0-pre.3
         - 8.0.0-pre.4
         - 8.0.0
         - 8.0.1
+        - 9.0.0-pre.1
         compatible:
         - 5.1.0
         - 5.1.1
         - 5.2.0
+        - 5.2.1
         verified: 5.1.1
       dependencies:
       - name: com.unity.2d.common
@@ -338,6 +343,7 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 8.0.0-pre.1
         compatible:
         - 4.2.0
         - 4.3.0
@@ -537,6 +543,7 @@ m_PackageAssets:
         - 8.0.0-pre.4
         - 8.0.0-pre.5
         - 8.0.0
+        - 9.0.0-pre.1
         compatible:
         - 5.2.0
         - 5.3.0
@@ -706,6 +713,7 @@ m_PackageAssets:
         - 1.14.13
         - 1.14.15
         - 1.14.16
+        - 1.14.17
         - 1.15.1
         - 1.15.4
         - 1.15.7
@@ -714,6 +722,7 @@ m_PackageAssets:
         - 1.15.13
         - 1.15.15
         - 1.15.16
+        - 1.15.17
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -729,6 +738,7 @@ m_PackageAssets:
         - 1.15.13
         - 1.15.15
         - 1.15.16
+        - 1.15.17
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -739,7 +749,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.16
+        verified: 1.15.17
       dependencies:
       - name: com.unity.services.core
         version: 1.0.1
@@ -833,6 +843,7 @@ m_PackageAssets:
         - 3.0.10
         - 3.0.12
         - 3.0.13
+        - 3.0.14
         compatible:
         - 1.0.2
         - 1.0.6
@@ -863,13 +874,14 @@ m_PackageAssets:
         - 3.0.10
         - 3.0.12
         - 3.0.13
+        - 3.0.14
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -962,7 +974,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.31
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -1101,6 +1113,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.3.2
         compatible:
         - 0.1.5-preview
         - 0.2.7-preview
@@ -1114,6 +1127,7 @@ m_PackageAssets:
         - 1.2.1
         - 1.2.2
         - 1.2.3
+        - 1.3.2
         verified: 1.2.3
       dependencies: []
       resolvedDependencies: []
@@ -1141,12 +1155,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.mobile.logcat.git
         revision: 59c5911d3f6465a7ecf9b03c8ad8ed681b549613
         path: 
-    - packageId: com.unity.mobile.notifications@1.4.2
+    - packageId: com.unity.mobile.notifications@1.4.3
       testable: 0
       isDirectDependency: 1
-      version: 1.4.2
+      version: 1.4.3
       source: 1
-      resolvedPath: D:\games in unity\Git Hub\killer-of-king\Library\PackageCache\com.unity.mobile.notifications@1.4.2
+      resolvedPath: D:\games in unity\Git Hub\killer-of-king\Library\PackageCache\com.unity.mobile.notifications@1.4.3
       assetPath: Packages/com.unity.mobile.notifications
       name: com.unity.mobile.notifications
       displayName: Mobile Notifications
@@ -1197,7 +1211,9 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.1
         - 1.4.2
+        - 1.4.3
         - 2.0.0
+        - 2.0.1
         compatible:
         - 1.0.0-preview.4
         - 1.0.0-preview.5
@@ -1230,8 +1246,10 @@ m_PackageAssets:
         - 1.3.2
         - 1.4.1
         - 1.4.2
+        - 1.4.3
         - 2.0.0
-        verified: 1.4.2
+        - 2.0.1
+        verified: 1.4.3
       dependencies:
       - name: com.unity.modules.androidjni
         version: 1.0.0
@@ -1255,20 +1273,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637635896040000000
+      datePublishedTicks: 637865594920000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
-        revision: 6e1b6e1acbe5d585c8d9557e82a9b2b274aecfa5
+        url: https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
+        revision: 4f4fa1a2f51ccabc89a7a174065332f61ea8a25d
         path: 
-    - packageId: com.unity.test-framework@1.1.29
+    - packageId: com.unity.test-framework@1.1.31
       testable: 0
       isDirectDependency: 1
-      version: 1.1.29
+      version: 1.1.31
       source: 1
-      resolvedPath: D:\games in unity\Git Hub\killer-of-king\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: D:\games in unity\Git Hub\killer-of-king\Library\PackageCache\com.unity.test-framework@1.1.31
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1316,12 +1334,14 @@ m_PackageAssets:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         compatible:
         - 1.1.29
         - 1.1.30
         - 1.1.31
+        - 2.0.1-exp.1
         - 2.0.1-pre.12
         - 2.0.1-pre.18
         verified: 1.1.31
@@ -1354,13 +1374,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637647922650000000
+      datePublishedTicks: 637804266210000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -3596,6 +3616,8 @@ m_PackageAssets:
         - 1.1.0-pre.69
         - 1.2.0
         - 1.3.1
+        - 1.3.2
+        - 1.4.0
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3607,6 +3629,8 @@ m_PackageAssets:
         - 1.1.0-pre.69
         - 1.2.0
         - 1.3.1
+        - 1.3.2
+        - 1.4.0
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3771,6 +3795,7 @@ m_PackageAssets:
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0
+        - 8.0.0-pre.1
         compatible:
         - 4.1.0
         - 4.2.0

@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - Fungus.Call
     - Fungus.Character
     - Fungus.Clickable2D
+    - Fungus.CommandCopyBuffer
     - Fungus.CustomTag
     - Fungus.DialogInput
     - Fungus.Draggable2D
@@ -20,6 +21,7 @@ ScriptsOnlyBuild:
     - Fungus.If
     - Fungus.InfoText
     - Fungus.IntegerVariable
+    - Fungus.InvokeMethod
     - Fungus.Localization
     - Fungus.LuaBindings
     - Fungus.LuaEnvironment
@@ -28,22 +30,30 @@ ScriptsOnlyBuild:
     - Fungus.LuaUtils
     - Fungus.Menu
     - Fungus.MenuDialog
+    - Fungus.MoveToView
     - Fungus.NarrativeLogEntryDisplay
     - Fungus.NarrativeLogEntryUI
     - Fungus.NarrativeLogMenu
     - Fungus.Parallax
+    - Fungus.PlayMusic
+    - Fungus.PlaySound
     - Fungus.Quit
     - Fungus.SaveData
     - Fungus.SaveMenu
+    - Fungus.SavePoint
     - Fungus.Say
     - Fungus.SayDialog
     - Fungus.SelectOnEnable
     - Fungus.SetVariable
     - Fungus.Stage
+    - Fungus.StopMusic
     - Fungus.View
+    - Fungus.Wait
     - Fungus.Writer
     - Fungus.WriterAudio
     FungusEditor.dll:
+    - Fungus.EditorUtils.BlockEditor
+    - Fungus.EditorUtils.BlockInspector
     - Fungus.EditorUtils.FlowchartWindow
     - Fungus.EditorUtils.FungusEditorResources
     Unity.2D.Animation.Editor.dll:
@@ -53,12 +63,15 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.CollabProxy.Editor.dll:
     - Unity.Cloud.Collaborate.UserInterface.CollaborateWindow
+    - Unity.Cloud.Collaborate.UserInterface.WindowCache
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -138,6 +151,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1662}
     - Class: 114
+      Script: {instanceID: 1766}
+    - Class: 114
+      Script: {instanceID: 1870}
+    - Class: 114
       Script: {instanceID: 1934}
     - Class: 114
       Script: {instanceID: 2074}
@@ -178,6 +195,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3634}
     - Class: 114
+      Script: {instanceID: 3748}
+    - Class: 114
       Script: {instanceID: 3784}
     - Class: 114
       Script: {instanceID: 3852}
@@ -194,6 +213,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4142}
     - Class: 114
+      Script: {instanceID: 4312}
+    - Class: 114
       Script: {instanceID: 4490}
     - Class: 114
       Script: {instanceID: 4580}
@@ -201,6 +222,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4758}
     - Class: 114
       Script: {instanceID: 4772}
+    - Class: 114
+      Script: {instanceID: 4784}
     - Class: 114
       Script: {instanceID: 4798}
     - Class: 114
@@ -250,7 +273,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6252}
     - Class: 114
+      Script: {instanceID: 6470}
+    - Class: 114
       Script: {instanceID: 6542}
+    - Class: 114
+      Script: {instanceID: 6572}
     - Class: 114
       Script: {instanceID: 7054}
     - Class: 114
@@ -2731,4 +2758,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Game/Menu.unity
-  playerPath: D:/APK/0.1.apk
+  playerPath: D:/APK/0.2.apk

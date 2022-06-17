@@ -7,7 +7,7 @@ public class We : MonoBehaviour
     // Start is called before the first frame update
     public void AboutUs()
     {
-        Application.OpenURL("fdfdf");
+        Application.OpenURL("https://vk.com/public213973858");
     }
 
 }
